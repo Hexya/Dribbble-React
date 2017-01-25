@@ -1,0 +1,131 @@
+.Grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contenair {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 5vh;
+}
+.contenair2 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 10vh;
+}
+.contenair3 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 10vh;
+}
+.img {
+  height: 195px;
+  width: 220px;
+  background-color: white;
+  border: solid rgba(220,220,220,0.8) 1px;
+  box-shadow: 1px 1px 1px rgb(240,240,240);
+  border-radius: 3px;
+}
+.backContain {
+  height: 22vh;
+  width: 91%;
+  margin-left: 4.5%;
+  margin-top: 4%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.whiteHover {
+  background-color: white;
+  height: 22vh;
+  width: 15.6%;
+  position: absolute;
+  margin-top: -22vh;
+  margin-left: 0.8%;
+  opacity: 0;
+}
+.whiteHover:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+.background1 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/39185/screenshots/3217827/sea_r3_1x.jpg");
+}
+.background2 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/952958/screenshots/3217885/dr_1x.png");
+}
+.background3 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/63407/screenshots/3217896/dribbble_taxsaving_1x.png");
+}
+.background4 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/48061/screenshots/3217818/bold_1x.png");
+}
+.background5 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/763/screenshots/3217754/mspacman_1x.png");
+}
+.background6 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/60166/screenshots/3218475/locator_1x.jpg");
+}
+.background7 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/825808/screenshots/3217882/portfolio-website_1x.png");
+}
+.background8 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/1225877/screenshots/3218380/iphone_7_copy_3_1x.png");
+}
+.background9 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/817492/screenshots/3218125/spacewhale_dribbble_1x.jpg");
+}
+.background10 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/218187/screenshots/3218479/welcome_screens_1x.png");
+}
+.background11 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/1387536/screenshots/3218409/20170110_1x.png");
+}
+.background12 {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/765567/screenshots/3217800/player_1x.png");
+}
+h1 {
+  font-size: 0.9em;
+}
+p {
+  font-size: 0.7em;
+}
+.date {
+  margin-top: 40%;
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+.stats {
+  margin-left: 16%;
+  font-size: 0.7em;
+}
+.stat {
+  padding-left: 25px;
+}
+.stat:hover {
+  color: rgb(170,170,170);
+}
+.maps {
+  height: 1.8vh;
+  width: 1%;
+  opacity: 0.5;
+  position: absolute;
+  margin-left: -16px;
+}
+.pseudo {
+  height: 4vh;
+  width: 100%;
+  font-size: 0.8em;
+  font-weight: bolder;
+  color:#3399ff;
+  margin-left: 5%;
+  margin-top: 3vh;
+}
+.pseudoImg {
+  border-radius: 100%;
+  height: 2.5vh;
+  width: auto;
+}

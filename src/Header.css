@@ -1,0 +1,128 @@
+.Header {
+  color: white;
+  margin-top: 0;
+  background-color: #333333;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
+  display: table-cell; /* affichage en ligne */
+  padding-left: 2.3vh;
+  font-size: 0.9em;
+  color: rgb(170,170,170);
+}
+li:hover {
+  color:white;
+}
+.dribbble{
+  font-family: 'Pacifico', cursive, Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-right: 3vh;
+  color: white;
+  padding-right: 50px;
+}
+.searchBar {
+  border-radius: 5px;
+  margin-left: 75vh;
+  width: 26%;
+  height: 3.2vh;
+}
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size:contain;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+/*MENU DEROULANT*/
+
+#headMenu, #headMenu ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+#headMenu li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#headMenu ul li{
+display:inherit;
+border-radius:0;
+}
+#headMenu ul li:hover{
+border-radius:0;
+}
+#headMenu ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#headMenu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+width: 25vh;
+border-radius: 0px 0px 5px 5px;
+box-shadow: 1px 1px 1px rgb(50,50,50);
+}
+#headMenu li:hover ul{
+max-height:25em;
+}
+/* background des liens headMenus */
+#headMenu li{
+background-color: #333333;
+}
+
+/* background des liens sous headMenus */
+#headMenu li{
+background:#333333;
+}
+
+/* les a href */
+#headMenu a{
+text-decoration:none;
+display:block;
+padding:8px 20px;
+color:rgb(160,160,160);
+font-family:arial;
+}
+#headMenu ul a{
+padding:8px 0;
+}
+#headMenu li:hover li a{
+color:grey;
+text-transform:inherit;
+}
+#headMenu li:hover a, #headMenu li li:hover a{
+color:rgb(220,220,220);
+}
+.backLiBlack:hover {
+  background-color: #474747;
+}
+.titleHead {
+  margin-left:-6vh;
+}
+.point {
+  margin-left:-6vh;
+  font-size: 1.3em;
+}
+.line:after {
+  display: block;
+  content:'';
+  margin-top: 10px;
+  height: 1px;
+  width:100%;
+  background-color: rgb(100,100,100);
+}
+.map {
+  height: 2.3vh;
+  width: 10%;
+  opacity: 0.5;
+  filter: invert();
+}

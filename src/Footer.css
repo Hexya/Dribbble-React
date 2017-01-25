@@ -1,0 +1,103 @@
+
+.Foot {
+  height: 260px;
+  width: 100%;
+  background-color: white;
+  margin-top: 7vh;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgb(210,210,210);
+  display: flex;
+}
+.para1 {
+  margin-top: 2vh;
+  height: 260px;
+  width: 18%;
+  margin-left: 2.5%;
+}
+.drible{
+  font-family: 'Pacifico', cursive, Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  color: rgb(170,170,170);
+}
+.text {
+  margin-top: -3vh;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: rgb(150,150,150);
+
+}
+.text1 {
+  font-size: 0.8em;
+  color: rgb(170,170,170);
+  line-height: 1.5em;
+}
+.para2 {
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 3%;
+}
+.para21 {
+  padding-left: 15%;
+  font-size: 1.1em;
+  color: rgb(170,170,170);
+  line-height: 0.8em;
+}
+.para3 {
+  display: flex;
+  margin-top: 5vh;
+  padding-left: 20px;
+  width: 150px;
+  margin-left: 3%;
+}
+.para31 {
+  padding-left: 15%;
+  font-size: 1.2em;
+  color: rgb(150,150,150);
+  line-height: 0.8em;
+  font-weight: bold;
+}
+.dad {
+  margin-left: 40px;
+  color: #80B4D3;
+}
+.fan {
+  margin-left: 40px;
+  color: #80B4D3
+}
+.bot {
+  display: flex;
+  margin-top: -50px;
+  margin-left: 2%;
+}
+.para4 {
+  color: rgb(170, 170, 170);
+}
+.logodrib {
+margin-left: 27.5%;
+margin-top: -15px;
+display: flex;
+}
+
+.statlogo {
+  margin-left: 5px;
+}
+.numberstat{
+  font-size: 1.4em;
+  position: absolute;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.describstat {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: rgb(150, 150, 150);
+}
+.btnup {
+  position: absolute;
+  margin-left: 200px;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
